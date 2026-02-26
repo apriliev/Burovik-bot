@@ -1,7 +1,7 @@
 import logging
-from aiogram import Bot, Dispatcher, F
+from aiogram import Bot, Dispatcher
+from aiogram import F
 from aiogram.types import Message
-from aiogram.enums import ChatType
 
 API_TOKEN = "8723285400:AAHqJZVe3-6gXRB0FC-BucIYrI4LYCcw5u8"
 
@@ -16,9 +16,8 @@ bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
 
-@dp.message(F.chat.type == ChatType.PRIVATE)
+@dp.message()
 async def send_link(message: Message):
-    # Ответ именно реплаем на сообщение пользователя
     await message.reply(AUTO_REPLY_TEXT)
 
 
