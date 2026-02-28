@@ -6,7 +6,7 @@ from aiogram.types import Message
 
 API_TOKEN = "8723285400:AAHqJZVe3-6gXRB0FC-BucIYrI4LYCcw5u8"
 
-LINK = "https://max.ru/join/SkMCiN_-agLAdrVQJQDSy8qo-jsE8tsdGjNG-vu-n54"
+LINK = "https://max.ru/join/0BmvZseYHqGDOMR2hjoURGcdZpOzaub2_-XFJ0PUGnA"
 
 MESSAGES = [
     f"Если захотите присоединиться к буровому сообществу, то добро пожаловать: {LINK}",
